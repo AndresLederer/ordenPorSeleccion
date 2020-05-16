@@ -43,7 +43,7 @@ public class Main {
 		return posicionDelMenor;
 	}
 	
-	//recibeun array double y lo muestra por cmd
+	//recibe un array double y lo muestra por cmd
 	private static void mostrararregloDouble(double[] arregloDouble) {
 		for (double numero : arregloDouble) {
 			System.out.println(String.format("%.2f",numero));
